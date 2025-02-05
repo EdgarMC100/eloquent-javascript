@@ -1,0 +1,16 @@
+let number = 0;
+
+while (number <= 10) {
+  console.log(number);
+  number = number + 2;
+}
+setTimeout(() => {
+  console.clear();
+  let counter = 0;
+  let result = 1;
+  while (counter < 10) {
+    result = result * 2;
+    counter++
+    console.log(result)
+  }
+}, 2000)
